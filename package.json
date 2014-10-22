@@ -1,0 +1,31 @@
+{
+  "name": "lakebtc_nodejs",
+  "version": "0.1.8",
+  "description": "LakeBTC REST API code sample for node.js",
+  "keywords": [
+    "lakebtc",
+    "btc",
+    "bitcoin",
+    "node.js"
+  ],
+  "author": {
+    "author": "LakeBTC <LakeBTC@gmail.com>"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "underscore": "1.4.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LakeBTC/lakebtc_nodejs"
+  },
+  "main": "lakebtc.js",
+  "engines": {
+    "node": ">= 0.7"
+  },
+  "bugs": {
+    "url": "https://github.com/LakeBTC/lakebtc_nodejs/issues",
+    "email": "LakeBTC@gmail.com"
+  },
+  "readmeFilename": "README.md"
+}
