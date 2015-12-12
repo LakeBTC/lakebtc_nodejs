@@ -75,7 +75,7 @@ Lakebtc.prototype._request = function(method, action, path, data, callback, args
   });
 
   req.on('socket', function (socket) {
-    socket.setTimeout(5000);
+    socket.setTimeout(20000);
     socket.on('timeout', function() {
       req.abort();
     });
